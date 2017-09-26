@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <!-- Name Label -->
+  <TextView android:id="@+id/home_team"
+    android:text="Team1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dip"
+    android:textStyle="bold"
+    android:paddingTop="10dip"
+    android:paddingBottom="10dip"
+    android:textColor="#dc6800"/>
+    <TextView android:id="@+id/visitor_team"
+        android:text="Team2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:textColor="#dc6800"/>
+  <!-- Description Label -->
+  <TextView android:id="@+id/team1_goal_amount"
+      android:text="Team1_goal_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac"/>
+  <!-- Price Label -->
+  <TextView android:id="@+id/team2_goal_amount"
+      android:text="team2_goal_amount"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:textStyle="bold"/>
+</LinearLayout>
